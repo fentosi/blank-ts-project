@@ -1,8 +1,8 @@
 {
-    "name": "blankes6project",
+    "name": "blanktsproject",
     "version": "1.0.0",
     "author": "Adam Fentosi",
-    "main": "index.js",
+    "main": "index.ts",
     "license": "MIT",
     "scripts": {
         "start": "parcel -p 3000 src/index.html",
