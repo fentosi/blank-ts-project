@@ -1,0 +1,7 @@
+@mixin truncate(){
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+  }

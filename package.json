@@ -1,0 +1,50 @@
+{
+    "name": "blankes6project",
+    "version": "1.0.0",
+    "author": "Adam Fentosi",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel -p 3000 src/index.html",
+        "build": "parcel build src/index.html",
+        "test": "jest"
+    },
+    "jest": {
+        "verbose": true,
+        "bail": false,
+        "preset": "ts-jest",
+        "testEnvironment": "node",
+        "collectCoverage": false,
+        "modulePathIgnorePatterns": [
+            "sandbox",
+            "node_modules"
+        ],
+        "transform": {
+            "^.+\\.jsx?$": "babel-jest",
+            "^.+\\.tsx?$": "ts-jest"
+        }
+    },
+    "type-check": "tsc",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fentosi/blank-es6-project.git"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-typescript": "^7.3.3",
+        "@types/jest": "^24.0.9",
+        "autoprefixer": "^9.4.9",
+        "babel-jest": "^24.1.0",
+        "jest": "^24.1.0",
+        "node-sass": "^4.11.0",
+        "parcel-bundler": "^1.11.0",
+        "postcss-modules": "^1.4.1",
+        "ts-jest": "^24.0.0"
+    },
+    "dependencies": {
+        "normalize-scss": "^7.0.1",
+        "typescript": "^3.3.3333"
+    }
+}
